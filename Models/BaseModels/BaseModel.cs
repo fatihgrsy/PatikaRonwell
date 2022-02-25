@@ -10,14 +10,6 @@ namespace Models.BaseModels
         public DateTime UpdateDate { get; set; }
 
     }
-
-
-        public class DeleteModel
-        {
-            public int Id { get; set; }
-        }
-
-
 }
     
     
