@@ -57,6 +57,7 @@ namespace RonvelEFApi.Controllers
                 {
                     data.TeacherNameSurname = model.TeacherNameSurname;
                     data.ClassRoomId = model.ClassRoomId;
+                    data.Id= model.Id;
                     _context.SaveChanges();
                     return Ok("Başarılı");
                 }
